@@ -1,0 +1,204 @@
+.league-spartan-font {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: #082d0f;
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: hidden;
+}
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #082d0f;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  pointer-events: none;
+}
+.navbar {
+  background-color: #082d0f;
+}
+.nav-link,
+.navbar-brand,
+.navbar-text {
+  color: white;
+}
+.nav-item:hover {
+  background-color: white;
+}
+.nav-link:hover {
+  background-color: white;
+  color: #082d0f;
+}
+
+@keyframes navbar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar {
+  opacity: 0;
+  animation: navbar 0.2s linear 0.2s 1 forwards;
+}
+
+header {
+  height: 80vh;
+}
+header #headers,
+header .bi-emoji-smile {
+  opacity: 0;
+  animation: navbar 0.5s linear 1s forwards;
+}
+header #lee {
+  opacity: 0;
+  animation: navbar 0.8s linear 0.2s forwards;
+}
+header #jia {
+  opacity: 0;
+  animation: navbar 0.8s linear 0.4s forwards;
+}
+header #ern {
+  opacity: 0;
+  animation: navbar 0.8s linear 0.6s forwards;
+}
+
+@keyframes headers {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: -10%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+#headers {
+  margin-bottom: 100px;
+  z-index: -1;
+}
+
+header img {
+  height: 70vh;
+  width: auto;
+  pointer-events: none;
+  position: absolute;
+}
+
+.bi,
+header h1 {
+  color: #5e907f;
+}
+
+.bi-balloon {
+  top: 18%;
+  left: 15%;
+  font-size: 150px;
+}
+
+.belowheader {
+  background-color: #082d0f;
+  border-radius: 25px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .belowheader {
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+  }
+}
+.belowheader h1 {
+  font-size: 250px;
+}
+.belowheader .card-title {
+  font-size: 225%;
+}
+.cardsrow {
+  height: 75vh;
+  overflow: scroll;
+  margin-left: 2.5%;
+  border-radius: 20px;
+}
+.cardsrow::-webkit-scrollbar {
+  display: none;
+}
+.cardsrow {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.card:nth-child(1) {
+  background-color: #dee5e5;
+}
+.card:nth-child(1) a,
+.card:nth-child(1) .bi {
+  color: #082d0f;
+}
+.card:nth-child(4) a,
+.card:nth-child(4) .bi {
+  color: #082d0f;
+}
+.card:nth-child(3) {
+  background-color: #17b890;
+}
+.card:nth-child(3) a,
+.card:nth-child(3) .bi {
+  color: white;
+}
+.card:nth-child(2) {
+  background-color: #5e807f;
+}
+.card:nth-child(2) a,
+.card:nth-child(2) .bi {
+  color: #082d0f;
+}
+.card:nth-child(5) {
+  background-color: #17b890;
+}
+.card:nth-child(5) a,
+.card:nth-child(5) .bi {
+  color: #082d0f;
+}
+.card:hover {
+  background-color: #082d0f;
+  border: 2px solid white;
+}
+.card:hover a,
+.card:hover .bi {
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  header #ern {
+    position: absolute;
+    right: 8%;
+  }
+  header #jia {
+    position: absolute;
+    left: 30%;
+  }
+  header #lee {
+    position: absolute;
+    right: 48%;
+  }
+}

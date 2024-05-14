@@ -1,0 +1,10 @@
+@import url(home.css);
+@import url(main.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}

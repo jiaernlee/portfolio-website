@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jia Ern's</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+      
+    <link rel="stylesheet" href="assets/css/all.css" />
+
+  </head>
+  <body>
+
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar navbar-expand-lg shadow-sm">
+      <div class="container px-0">
+        <a class="navbar-brand me-5 fs-1 text-white" href="index.html">je</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-4">
+            <li class="nav-item">
+              <a class="nav-link" id="aboutbtn" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="skillsbtn" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="projectsbtn" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="gallerybtn" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contactbtn" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <span class="navbar-text d-none d-lg-flex">
+          Made with passion <i class="bi bi-emoji-smile ps-3"></i
+        ></span>
+      </div>
+    </nav>
+
+    <section class="not-nav ">
+      <section id="about" class="my-5 ">
+        <div class="row d-flex flex-row my-5 px-5">
+          <div
+            class="col-lg-6 d-flex justify-content-center align-items-center"
+          >
+            <div class="about-image position-relative mb-lg-0 mb-5">
+              <i
+                class="bi bi-emoji-smile position-absolute"
+                style="z-index: 10; left: -5%; top: -8%; font-size: 50px"
+              ></i>
+              <div
+                class="frame w-100 h-100 rounded-5 position-absolute"
+                style="
+                  border-image: url(assets/images/portrait-border.png) 25 25;
+                "
+              ></div>
+              <div class="slide">
+                <img
+                  src="assets/images/portrait.png"
+                  alt=""
+                  style="
+                    height: 65vh;
+                    position: absolute;
+                    left: -40%;
+                    top: 5%;
+                    z-index: 9;
+                  "
+                  class="animate"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 pe-md-5 mt-5 mt-lg-0">
+            <div class="row gap-3">
+              <div class="col-12 pe-md-5">
+                <div
+                  class="card d-flex justify-content-center border-none animate"
+                >
+                  <div class="card-body d-flex flex-column justify-content-center">
+                    <div class="d-flex align-items-center gap-3">
+                      <h3 class="card-title"><b>name:</b></h3>
+                      <h4 class="card-subtitle">Lee Jia Ern</h4>
+                    </div>
+                    <!-- <p>
+                      a Forward College & DIP student with a passion for digital
+                      technology.
+                    </p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pe-md-5">
+                <div
+                  class="card d-flex justify-content-center border-none card-age animate p-0"
+                >
+                  <div class="card-body d-flex align-items-center gap-3">
+                    <h3 class="card-title"><b>age:</b></h3>
+                    <h4 class="card-subtitle">15</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pe-md-5">
+                <div
+                  class="card d-flex justify-content-center border-none card-hobby animate"
+                >
+                  <div class="card-body d-flex align-items-center gap-3">
+                    <h3 class="card-title"><b>hobbies:</b></h3>
+                    <h5 class="card-subtitle">word search</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pe-md-5">
+                <div
+                  class="card d-flex justify-content-center border-none card-home animate"
+                >
+                  <div class="card-body d-flex align-items-center gap-md-3">
+                    <h3 class="card-title"><b>hometown:</b></h3>
+                    <h7 class="card-subtitle">Melaka, Malaysia</h7>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pe-md-5">
+                <div
+                  class="card d-flex justify-content-center border-none card-school animate"
+                >
+                  <div class="card-body d-flex align-items-center gap-md-2">
+                    <h3 class="card-title"><b>school:</b></h3>
+                    <h8 class="card-subtitle text-wrap">
+                      Forward College, Penang <br />
+                      Kolej PERMATA @Pintar, UKM
+                    </h8>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="skills"
+        class="py-5 first-col d-flex"
+        title="scroll to see more"
+        style="z-index: -5;"
+      >
+        <h1 class="text-white">skills</h1>
+        <div class="hs d-flex flex-column align-items-center w-100 pb-5 me-5 ">
+          <div>
+            <div class="text-center">
+              <p class="animate pb-2">
+                Year 2021, I started my journey in programming.
+              </p>
+              <h2 class="text-white">My skills...</h2>
+            </div>
+            <br />
+            <div class="pt-3 pb-lg-0 pb-5 d-flex "  >
+              <div class="d-flex w-100 d-flex flex-column">
+                <div class="row d-flex justify-content-center pb-5 w-100 row-gap-5">
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-12">
+                    <div
+                      class="python hard-img bg-white d-flex justify-content-center align-items-center mb-3"
+                    >
+                      <img
+                        src="assets/images/python.png"
+                        alt=""
+                        style="height: 100px"
+                      />
+                    </div>
+    
+                    <div class="card bg-white " style="color: #082d0f;">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>Python</b></h5>
+                        <p class="card-text">
+                          Familiar
+                        </p>
+                        <!-- Button trigger modal -->
+                       
+                      </div>
+                      
+                    </div>
+                    <button
+                      type="button"
+                      class="btn  mt-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      PCEP CERT
+                    </button>
+
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1
+                              class="modal-title fs-5"
+                              id="exampleModalLabel"
+                              style="writing-mode: horizontal-tb"
+                            >
+                              PCEP CERTIFICATE
+                            </h1>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body d-flex justify-content-center">
+                            <img
+                              src="assets/images/pcep.jpg"
+                              alt=""
+                              style="height: 33vh"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-12 gap-2">
+                    <div
+                      class="python hard-img bg-white d-flex justify-content-center align-items-center mb-3"
+                    >
+                      <img
+                        src="assets/images/html.png"
+                        alt=""
+                        style="height: 100px"
+                      />
+                    </div>
+    
+                    <div class="card bg-white " style="color: #082d0f">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>HTML</b></h5>
+                        <p class="card-text">
+                          Familiar
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-12 gap-2">
+                    <div
+                      class="python hard-img bg-white d-flex justify-content-center align-items-center mb-3"
+                    >
+                      <img
+                        src="assets/images/css-3.png"
+                        alt=""
+                        style="height: 70px"
+                      />
+                    </div>
+    
+                    <div class="card bg-white " style="color: #082d0f">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>CSS</b></h5>
+                        <p class="card-text">
+                          Familiar
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-12 gap-2">
+                    <div
+                      class="python hard-img bg-white d-flex justify-content-center align-items-center mb-3"
+                    >
+                      <img
+                        src="assets/images/js.png"
+                        alt=""
+                        style="height: 100px"
+                      />
+                    </div>
+    
+                    <div class="card bg-white " style="color: #082d0f">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>JavaScript</b></h5>
+                        <p class="card-text">
+                          Less Familiar
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-12 gap-2">
+                    <div
+                      class="python hard-img bg-white d-flex justify-content-center align-items-center mb-3"
+                    >
+                      <img
+                        src="assets/images/php.png"
+                        alt=""
+                        style="height: 100px"
+                      />
+                    </div>
+    
+                    <div class="card bg-white " style="color: #082d0f">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>PHP</b></h5>
+                        <p class="card-text">
+                          Less Familiar
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-12 gap-2">
+                    <div
+                      class="python hard-img bg-white d-flex justify-content-center align-items-center mb-3"
+                    >
+                      <img
+                        src="assets/images/mysql.png"
+                        alt=""
+                        style="height: 100px"
+                      />
+                    </div>
+    
+                    <div class="card bg-white " style="color: #082d0f">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>MySQL</b></h5>
+                        <p class="card-text">
+                          Less Familiar
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div 
+                  class="pe-lg-0"
+                >
+                  <div
+                    class="card bg-white text-center skill-cards2 mb-3 "
+                    style="color: #082d0f;"
+                  >
+                    <div class="card-body">
+                      <h5 class="card-title">Computational Thinking</h5>
+                      <img
+                        src="assets/images/computational.png"
+                        alt=""
+                        style="height: 50px" 
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="card bg-white  text-center skill-cards2 mb-3"
+                    style="color: #082d0f;"
+                  >
+                    <div class="card-body">
+                      <h5 class="card-title">Team Work</h5>
+                      <img
+                        src="assets/images/united.png"
+                        alt=""
+                        style="height: 50px"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="card bg-white text-center skill-cards2 mb-0"
+                    style="color: #082d0f;"
+                  >
+                    <div class="card-body">
+                      <h5 class="card-title">Adaptability & Flexibility</h5>
+                      <img
+                        src="assets/images/adaptation.png"
+                        alt=""
+                        style="height: 50px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- <div class="ss col-2 d-flex flex-column justify-content-center align-items-center pe-3" >
+            <div class="text-center">
+              <h2 class="text-white pb-3">What I learnt...</h2>
+            </div>
+           
+          </div> -->
+        </div>
+      </section>
+
+      <section
+        id="projects"
+        class="sec-col text-white d-flex"
+        style="z-index: -4;"
+      >
+        <h1 class="pt-5">projects</h1>
+        <section class="timeline w-100 my-5 rounded-5">
+          <ol>
+            <li>
+              <div class="myProjects animate p-3 d-flex justify-content-center">
+                2024
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    Website of Interest
+                  </h5>
+                  <img src="assets/images/woi.jpg" alt="" class="" />
+                  <figcaption>
+                    Website of Interest<small>This is a website made using HTML, Tailwind CSS and Javascript. It is about a novel series I like, which is "Sherlock Holmes". <a href="#">Click here to view.</a> </small>
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="myProjects animate p-3 d-flex justify-content-center">
+                2023
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    Portfolio
+                  </h5>
+                  <img src="assets/images/googlesites.jpg" alt="" class="" />
+                  <figcaption>
+                    Portfolio
+                    <small
+                      >The is a portfolio made using Google Sites.
+                      <a
+                        href="https://sites.google.com/view/jiaernlee/home?authuser=0"
+                        target="_blank"
+                        >Link</a
+                      >
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="myProjects animate p-3 d-flex justify-content-center">
+                2023
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    KAWA
+                  </h5>
+                  <img
+                    src="assets/images/kawa.png"
+                    alt=""
+                    class="one"
+                  />
+                  <figcaption>
+                    KAWA<small
+                      >The “River Trash Detector” project is a camera that is
+                      trained to identify trash flowing in a river in real-time.
+                      By attaching it to the river bank, it provides a precise
+                      location instantly through an online website that aims to
+                      monitor data and inform authorities promptly. The website
+                      will also display the current total number of trash
+                      identified through the Raspberry Pi camera.
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div
+                class="myProjects animate p-3 d-flex justify-content-center pt-3"
+              >
+                2023
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    Meowsure: Mobile App
+                  </h5>
+                  <img src="assets/images/app.png" alt="">
+                  <figcaption>
+                    Mewosure: Mobile App<small
+                      >This was a continuous project of our PBL FYP 2022/2023
+                      (Meowsure sensor). The students were tasked to create a
+                      mobile app related to their PBL project. Together with my
+                      groupmates, we managed to create a prototype of the app,
+                      that was able to function properly including features such
+                      as log in and out, also collecting user data and uploading
+                      it to the database.</small
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="myProjects animate p-3 d-flex justify-content-center">
+                2022
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    MEOWSURE
+                  </h5>
+                  <img src="assets/images/meowsure.jpg" alt="" class="" />
+                  <figcaption>
+                    MEOWSURE<small
+                      >The “Meowsure sensor” is a pet food level sensor using an
+                      ultrasonic sensor to alert the pet owner. In addition, we
+                      connected this sensor to the IoT and built an app for
+                      users to check the record the food intake of the pet .
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div
+                class="myProjects animate p-3 d-flex justify-content-center align-items-center"
+              >
+                2022
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    Slime game
+                  </h5>
+                  <img src="assets/images/slime.png" alt="">
+                  <figcaption>
+                    Slime Game<small
+                      >This is a project made using Raspberry Pi senseHat as a
+                      game console that connects with our game. The game
+                      utilizes a Sense HAT to blink fruits in random directions,
+                      with players controlling a slime's movement using buttons
+                      to consume correct fruits while avoiding wrong ones. Game
+                      will end if the player moves incorrectly or fails to eat
+                      normal food, with the score displayed.</small
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="myProjects animate p-3 d-flex justify-content-center">
+                2022
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    Website: Candy<span
+                      style="font-size: 10px; position: absolute; top: 30%"
+                      >3</span
+                    >
+                  </h5>
+                 <img src="assets/images/candy.png" alt="">
+                  <figcaption>
+                    Website: Candy<span
+                      style="font-size: 10px; position: absolute; top: 30%"
+                      >3</span
+                    >
+                    <small
+                      >This website is created for Technopreneurship subject,
+                      where our company(group) has decided to work on sweets and
+                      candies. The three of us in the group worked together and
+                      made this website in Wix.<a
+                        href="https://candy3bakery.wixsite.com/candy-3"
+                        target="_blank"
+                        >Link</a
+                      ></small
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="myProjects animate p-3 d-flex justify-content-center">
+                2022
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    Javascript Game
+                  </h5>
+                  <img src="assets/images/hangemoji.png" alt="">
+                  <figcaption>
+                    Hang-Emoji
+                    <small
+                      >This javascript game is displayed in a HTML website created in 2022. The title of my game is
+                      "Hang-emoji", which is a combination of the game
+                      "Hang-man" with emojis. Players will get 6 chances to
+                      guess the correct word. Hints may be found, but solving an
+                      easy math question is needed in order to pass.
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+            <li>
+              <div class="myProjects animate p-3 d-flex justify-content-center">
+                2021
+                <figure>
+                  <h5
+                    class="position-absolute bg-white p-3"
+                    style="z-index: 5; color: #082d0f; top: 0; left: 0"
+                  >
+                    Scratch
+                  </h5>
+                  <iframe src="https://scratch.mit.edu/projects/608225878/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                  <figcaption>
+                    Maze game
+                    <small
+                      >This is a project made by Foundation 1 me in 2021.
+                      By moving around using arrow keys, the goal is to avoid touching all obstacles and get the secret formula.
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+            </li>
+          </ol>
+        </section>
+       
+          <symbol id="close" viewBox="0 0 18 18">
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#00000" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+              S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+              l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+              c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+              s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
+          </symbol>
+        </svg>
+      </section>
+     
+      <section id="gallery" class="third-col text-white d-flex py-5" style="z-index: -3;">
+        <h1 class="">gallery</h1>
+        <div style="width: 100%;" class="row me-5 d-flex justify-content-center align-items-center">
+          <ul class="col-md-6  pe-4 animate">
+            <li><img src="assets/images/8.jpg" alt=""></li>
+            <li><img src="assets/images/9.jpg" alt=""></li>
+            <li><img src="assets/images/16.jpg" alt=""></li>
+            <li><img src="assets/images/17.jpg" alt=""></li>
+            <li><img src="assets/images/1.jpg" alt=""></li>
+            <li><img src="assets/images/2.jpg" alt=""></li>
+          </ul>
+          <ul class="col-md-6  pe-4 animate">
+            <li><img src="assets/images/7.jpg" alt=""></li>
+            <li><img src="assets/images/6.jpg" alt=""></li>
+            <li><img src="assets/images/5.jpg" alt=""></li>
+            <li><img src="assets/images/12.JPG" alt=""></li>
+            <li><img src="assets/images/13.jpg" alt=""></li>
+            <li><img src="assets/images/15.jpg" alt=""></li>
+          </ul>
+        </div>
+        
+      </section>
+
+      <section
+        id="contact"
+        class="pt-3 fourth-col text-white d-flex justify-content-center"
+        style="z-index: -2;"
+      >
+        <h1 class="pt-5">
+          contact
+          <a
+            href="https://www.instagram.com/jaern.lee/"
+            style="text-decoration: none"
+            target="_blank"
+          >
+            <i
+              class="bi bi-instagram text-white"
+              style="font-size: 25px"
+              title="click me"
+            ></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100073680739819"
+            style="text-decoration: none"
+            target="_blank"
+          >
+            <i
+              class="bi bi-facebook text-white"
+              style="font-size: 25px"
+              title="click me"
+            ></i>
+          </a>
+        </h1>
+
+        <div class="row w-100 d-flex py-md-5 row-gap-2">
+          <div
+            class="col-md-6 order-md-last d-flex justify-content-center mb-sm-5"
+          >
+            <div
+              class="about-image position-relative mb-lg-0 pt-lg-5 contact-image"
+            >
+              <i
+                class="bi bi-emoji-smile position-absolute"
+                style="z-index: 11; left: -5%; top: 3%; font-size: 50px"
+              ></i>
+
+              <div
+                class="frame w-100 h-100 rounded-5 position-absolute"
+                style="
+                  border-image: url(assets/images/portrait-border2.png) 25 25;
+                "
+              >
+                <h3 class="pt-3 text-center">Let's get in touch</h3>
+              </div>
+
+              <div class="slide">
+                <img
+                  src="assets/images/racquet.png"
+                  alt=""
+                  style="
+                    height: 50vh;
+                    position: absolute;
+                    left: 53%;
+                    top: 30%;
+                    z-index: 8;
+                  "
+                  class="animate"
+                />
+                <img
+                  src="assets/images/sunglasses.png"
+                  alt=""
+                  style="
+                    height: 50vh;
+                    position: absolute;
+                    left: -5%;
+                    top: 10%;
+
+                    z-index: 12;
+                  "
+                  class="animate"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center c-form-whole mb-5 pb-5 pb-lg-0"
+          >
+            <div class="w-75">
+              <div class="mb-3 contact-form ">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >your email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                />
+              </div>
+              <div class="mb-3 contact-form ">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >message me!</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="8"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary mb-3 contact-form "
+              >
+                submit
+              </button>
+            </div>
+
+            <div
+              class="media ps-4 pt-2 text-center d-flex gap-2 flex-column flex-md-row"
+            >
+              <div>
+                <i
+                  class="bi bi-telephone text-white"
+                  style="font-size: 25px"
+                  onclick="copyToClipboard('#phoneNo')"
+                  title="click to copy"
+                ></i>
+                <span style="font-size: small" id="phoneNo"
+                  >+60 18 262 6121</span
+                >
+              </div>
+
+              <div>
+                <a
+                  href="mailto:jiaernl24@forward.edu.my"
+                  style="text-decoration: none"
+                >
+                  <i
+                    class="bi bi-envelope text-white"
+                    style="font-size: 25px"
+                    title="email me"
+                  ></i>
+                </a>
+
+                <span style="font-size: small">jiaernl24@forward.edu.my</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer class="w-100 py-2 d-flex justify-content-center align-items-center">
+      <small class="text-center text-white">&copy;jiaernlee 2024</small>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
+    <!-- <script type="text/javascript">
+      $(document).ready(function () {
+        $(".single-item").slick();
+      });
+    </script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+   
+  </body>
+</html>
